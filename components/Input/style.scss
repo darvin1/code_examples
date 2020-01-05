@@ -1,0 +1,39 @@
+@import '../../../../styles/constants/index.scss';
+
+.input {
+	height: 100%;
+
+	// Elements
+
+	&__field {
+		background-color: var(--primaryDark-2);
+		border-radius: $borderRadius;
+		box-shadow: none;
+		border: 1px solid var(--primaryDark-2);
+		color: var(--onPrimary);
+
+		padding: 0 18px;
+		outline: none;
+		height: 100%;
+		width: 100%;
+
+		transition: border-color $animTimeFast, background-color $animTimeFast;
+
+		-webkit-appearance: none;
+
+		&::placeholder {
+			color: var(--onPrimaryLight-2);
+		}
+
+		&:focus {
+			border-color: var(--third);
+			box-shadow: none;
+		}
+
+		// Modifiers
+
+		&--error {
+			border-color: var(--error);
+		}
+	}
+}

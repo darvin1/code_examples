@@ -1,0 +1,27 @@
+// -------- Animation durations --------
+
+$animTimeSlow: 0.35s;
+$animTimeFast: 0.2s;
+$animTime: 0.3s;
+
+// -------- UI params --------
+
+$borderRadiusMiddle: 10px;
+$borderRadiusSmall: 4px;
+$borderRadiusFull: 50%;
+$borderRadiusBig: 12px;
+$borderRadius: 6px;
+$boxShadow: 0 8px 22px rgba(30, 35, 41, 0.26), 0 -2px 12px -6px rgba(33, 31, 41, 0.14);
+
+// -------- Breakpoints --------
+
+$xs: 375px; // extra-small
+$sm: 600px; // small
+$md: 960px; // medium
+$lg: 1280px; // large
+
+// If size > 1280px, then size called "extra-large". It is default size for styles.
+
+// -------- Fonts --------
+
+$fontFamilyBase: 'Aeonik';

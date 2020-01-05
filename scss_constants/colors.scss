@@ -1,0 +1,35 @@
+:root {
+  // -------- Primary --------
+
+	--primary         : #ffffff;
+	--primaryDark     : #f7f7f7;
+  --primaryDark-2   : #f2f2f2;
+  --primaryDark-3   : #c4c3c3;
+	--onPrimary       : #252729;
+  --onPrimaryLight  : #818284;
+  --onPrimaryLight-2: #979899;
+  --onPrimaryLight-3: #e6e6e6;
+
+  // -------- Secondary --------
+
+  --secondary: #d3596c;
+
+  // -------- Third --------
+
+  --third: #7ab9de;
+
+  // -------- Fourth --------
+
+  --fourth: #ebb767;
+
+  // -------- Valid --------
+
+  --valid            : #55c75c;
+  --validLight       : #f5fcf6;
+  --validTranslucent : #d4eed6;
+
+  // -------- Error --------
+
+  --error     : #e94040;
+  --errorLight: #e68383;
+}

@@ -1,0 +1,65 @@
+@import '../../../../../styles/constants/index.scss';
+
+.signin-form {
+	text-align: center;
+
+	// Elements
+
+	&__title {
+		margin-bottom: 54px;
+
+		@media (max-width: $md) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__row {
+		margin-bottom: 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@media (max-width: $sm) {
+			margin-bottom: 18px;
+		}
+	}
+
+	&__or {
+		margin: 25px 0;
+
+		@media (max-width: $md) {
+			margin: 16px 0;
+		}
+	}
+
+	&__fields {
+		position: relative;
+	}
+
+	&__forgot-password {
+		justify-content: flex-end;
+		display: flex;
+		margin: 8px 1px 0 0;
+		color: var(--onPrimaryLight);
+	}
+
+	&__error {
+		margin-bottom: 14px;
+	}
+
+	&__footer {
+		margin-top: 30px;
+	}
+
+	&__terms {
+		margin-top: 14px;
+		text-align: center;
+	}
+
+	&__account {
+		text-align: center;
+		margin-top: 34px;
+		color: var(--onPrimary);
+	}
+}
